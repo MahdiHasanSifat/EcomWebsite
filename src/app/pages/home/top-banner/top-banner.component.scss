@@ -1,0 +1,34 @@
+.main {
+  width: 100%;
+  // border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subContainer {
+  // border: 1px solid blue;
+  width: 99%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+.topImage {
+  // border: 1px solid brown;
+  width: 99%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  img {
+    // width: Fixed (648px) px;
+    // height: Fixed (641px) px;
+  }
+}
+
+@media (max-width: 899px) {
+  .topImage {
+    flex-wrap: wrap;
+  }
+}

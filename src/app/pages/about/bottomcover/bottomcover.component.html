@@ -1,0 +1,63 @@
+<!-- <p>bottomcover works!</p> -->
+<!-- hi hi hi hi hi -->
+
+<div class="container">
+    <div class="subContainer">
+        <div class="coninfo">
+            <div class="contact">
+                <h2>Contact Information</h2>
+            </div>
+            <div class="conlinks">
+                <div class="contactoption" *ngFor="let inf of information">
+                    <div class="picc">
+                        <img [src]="inf.logo" alt="">
+                    </div>
+                    <div class="des">{{inf.detail}}</div>
+                </div>
+            </div>
+            <div class="bottomline">
+                <div class="logosdiv" *ngFor="let logoss of thelogos">
+                    <img [src]="logoss.social" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- FORM -->
+
+        <div class="forms">
+            <div class="first4">
+                <div class="firstname" *ngFor="let inputs of array">
+                    <div class="texts">
+                        <p>{{inputs.names}}</p>
+                    </div>
+                    <div class="inputt">
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+            <div class="mesgs">
+                <div class="firstname">
+                    <div class="texts">
+                        <p>Message</p>
+                    </div>
+                    <div class="inputt">
+                        <input type="text" placeholder="Write Your Message">
+                    </div>
+                </div>
+            </div>
+            <div class="sub">
+                <div class="subject">
+                    <p>Select Subject:</p>
+                </div>
+                <ul>
+                    <li>Subject A</li>
+                    <li>Subject B</li>
+                    <li>Subject C</li>
+                </ul>
+            </div>
+            <div class="btn">
+                <Button>Send Message</Button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,29 @@
+<!-- hi hi hi hi hi -->
+
+<div class="container">
+    <div class="subContainer">
+        <div class="qbox">
+            <div class="headings">
+                <h2>
+                    Frequently Ask Questions
+                </h2>
+            </div>
+            <div class="ques" *ngFor="let q of query">
+                <div class="qtop">
+                    <div class="theQ">
+                        <p>{{q.ques}}</p>
+                    </div>
+                    <div class="arrowdown">
+                        <img [src]="q.butt" alt="">
+                    </div>
+                </div>
+                <div class="qans">
+                    <p>{{q.ans}}</p>
+                </div>
+            </div>
+            <div class="more">
+                <button>Find More FAQs</button>
+            </div>
+        </div>
+    </div>
+</div>

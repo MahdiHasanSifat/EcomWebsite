@@ -1,0 +1,35 @@
+<!-- <p>frame works!</p> -->
+
+<div class="container">
+    <div class="subContainer">
+        <div class="headings">
+            <h2>
+                Das sagen unsere Kunden
+            </h2>
+        </div>
+        <div class="frame">
+            <div class="cards" *ngFor="let card of info">
+                <div class="pic">
+                    <img [src]="card.picture" alt="">
+                </div>
+                <div class="texts">
+                    <div class="paras">
+                        <p>{{card.para}}</p>
+
+                    </div>
+                    <div class="lastline">
+                        <div class="initi">
+                            <p>{{card.initial}}</p>
+
+                        </div>
+                        <div class="desig">
+                            <p>{{card.designation}}</p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

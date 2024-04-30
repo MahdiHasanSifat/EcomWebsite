@@ -1,0 +1,27 @@
+<!-- <p>product-list works!</p> -->
+
+
+<div class="imageBox">
+    <div class="pic">
+        <img [src]="product.picture" alt="">
+        <div class="discount" *ngIf="product.discount">
+            <p>{{product.discount}}</p>
+        </div>
+    </div>
+    <div class="description">
+        <div class="productName">
+            <h3>{{product.name}}</h3>
+        </div>
+        <div class="productPrice">
+            <p>{{product.price}}<s *ngIf="product.discount">{{product.oldprice}}</s></p>
+        </div>
+        <div class="bottomofpicbox">
+            <div class="rating">
+                <ng-container *ngFor="let rate of rates">
+                    <div *ngIf="rate <= product.rate"><img [src]="product.ratting" alt=""></div>
+                </ng-container>
+            </div>
+            <div class="cart"><img [src]="product.cart" alt=""></div>
+        </div>
+    </div>
+</div>

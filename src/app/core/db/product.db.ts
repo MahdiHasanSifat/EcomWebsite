@@ -1,0 +1,10 @@
+export const products_db: any[] = [
+  {picture:"./assets/images/brand/jpg/bollard.png", name: "Bollard Lamp", price:"$10.00",oldprice:"$20.00", ratting:"./assets/images/brand/svg/star.svg", rate: 2, cart:"./assets/images/brand/svg/shopping bag.svg", discount:"-50%"},
+  {picture:"./assets/images/brand/jpg/lamp4.jpeg", name: "Wall Lamp", price:"$11.00",oldprice:"$22.00", ratting:"./assets/images/brand/svg/star.svg", rate: 3, cart:"./assets/images/brand/svg/shopping bag.svg", discount:"-50%"},
+  {picture:"./assets/images/brand/jpg/lamp3.jpg", name: "Diesel V2 Hoodie", price:"$09.00",oldprice:"$18.00", ratting:"./assets/images/brand/svg/star.svg", rate: 2, cart:"./assets/images/brand/svg/shopping bag.svg", discount:null},
+  {picture:"./assets/images/brand/jpg/lamp5.jpg", name: "Diesel V3 Hoodie", price:"$20.00",oldprice:"$40.00", ratting:"./assets/images/brand/svg/star.svg", rate: 1, cart:"./assets/images/brand/svg/shopping bag.svg", discount:"-50%"},
+  {picture:"./assets/images/brand/jpg/lamp2.png", name: "Grey Winter Hoodie", price:"$05.00",oldprice:"$10.00", ratting:"./assets/images/brand/svg/star.svg", rate: 3, cart:"./assets/images/brand/svg/shopping bag.svg", discount:"-50%"},
+  {picture:"./assets/images/brand/jpg/round.png", name: "Round neck T-shirt", price:"$33.00",oldprice:"$26.00", ratting:"./assets/images/brand/svg/star.svg", rate: 4, cart:"./assets/images/brand/svg/shopping bag.svg", discount:null},
+  {picture:"./assets/images/brand/jpg/diesel v1.png", name: "Diesel V1 Hoodie", price:"$35.00",oldprice:"$40.00", ratting:"./assets/images/brand/svg/star.svg", rate: 5, cart:"./assets/images/brand/svg/shopping bag.svg", discount:null},
+  {picture:"./assets/images/brand/jpg/diesel lst.png", name: "Diesel V4 Hoodie", price:"$21.00",oldprice:"$42.00", ratting:"./assets/images/brand/svg/star.svg", rate: 3, cart:"./assets/images/brand/svg/shopping bag.svg", discount:"-50%"}
+]

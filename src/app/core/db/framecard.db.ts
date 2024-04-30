@@ -1,0 +1,6 @@
+export const frame_db: any[] = [
+    {picture:"./assets/images/brand/jpg/potimg.png", para:"Aut nihil mollitia deserunt quia sed rem. Quibusdam amet veniam rerum id rerum beatae. Quas rerum iste necessitatibus. At voluptates ad magnam blanditiis excepturi expedita aut. Aut repellat inventore qui minima illum est.", initial:"Kyle Merwin", designation:"CO-owner"},
+    {picture:"./assets/images/brand/jpg/potimg.png", para:"Aut nihil mollitia deserunt quia sed rem. Quibusdam amet veniam rerum id rerum beatae. Quas rerum iste necessitatibus. At voluptates ad magnam blanditiis excepturi expedita aut. Aut repellat inventore qui minima illum est.", initial:"Kyle Merwin", designation:"CO-owner"},
+    {picture:"./assets/images/brand/jpg/potimg.png", para:"Aut nihil mollitia deserunt quia sed rem. Quibusdam amet veniam rerum id rerum beatae. Quas rerum iste necessitatibus. At voluptates ad magnam blanditiis excepturi expedita aut. Aut repellat inventore qui minima illum est.", initial:"Kyle Merwin", designation:"CO-owner"},
+    {picture:"./assets/images/brand/jpg/potimg.png", para:"Aut nihil mollitia deserunt quia sed rem. Quibusdam amet veniam rerum id rerum beatae. Quas rerum iste necessitatibus. At voluptates ad magnam blanditiis excepturi expedita aut. Aut repellat inventore qui minima illum est.", initial:"Kyle Merwin", designation:"CO-owner"}
+]
