@@ -10,6 +10,7 @@
 }
 
 .subContainer {
+  margin-top: 45px;
   // border: 1px solid green;
   width: 93%;
   display: flex;
@@ -22,13 +23,13 @@
 }
 .coninfo {
   width: 30%;
-  height: 420px;
+  height: 425px;
   display: flex;
   flex-direction: column;
-  gap: 5.5rem;
+  gap: 4.5rem;
   background-color: #f7f7f7;
   padding: 40px;
-  margin-top: 45px;
+  // margin-top: 45px;
   border-radius: 5px;
 }
 .conlinks {
@@ -50,6 +51,7 @@
 .bottomline {
   display: flex;
   gap: 15px;
+  // padding-bottom: 55px;
 }
 //form right
 .forms {
